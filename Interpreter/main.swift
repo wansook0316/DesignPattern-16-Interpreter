@@ -7,5 +7,22 @@
 
 import Foundation
 
-print("Hello, World!")
+internal func main() {
 
+    let script = "BEGIN FRONT LOOP 2 BACK RIGHT END BACK END"
+
+    let context = Context(script: script)
+
+    while true {
+        guard let keyword = context.currentKeyword else {
+            break
+        }
+
+        print(keyword)
+
+        context.readNextKeyword()
+    }
+
+}
+
+main()
