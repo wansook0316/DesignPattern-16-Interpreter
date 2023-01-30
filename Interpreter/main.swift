@@ -9,18 +9,13 @@ import Foundation
 
 internal func main() {
 
-    let script = "BEGIN FRONT LOOP 2 BACK RIGHT END BACK END"
+    let script = "BEGIN FRONT LOOP 2 BACK RIGHT END BACK LOOP 4 BACK FRONT LEFT END LEFT END"
 
     let context = Context(script: script)
+    let expression = BeginExpression()
 
-    while true {
-        guard let keyword = context.currentKeyword else {
-            break
-        }
-
-        print(keyword)
-
-        context.readNextKeyword()
+    if expression.parse(context: context) {
+        print(expression.description)
     }
 
 }

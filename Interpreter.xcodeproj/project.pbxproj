@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		CE53C608298754A000BBA6BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53C607298754A000BBA6BD /* main.swift */; };
 		CE53C62729875F1300BBA6BD /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53C62629875F1300BBA6BD /* Context.swift */; };
+		CE53C6292987637F00BBA6BD /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53C6282987637F00BBA6BD /* Expression.swift */; };
+		CE53C62B298763B700BBA6BD /* BeginExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53C62A298763B700BBA6BD /* BeginExpression.swift */; };
+		CE53C62D298765C900BBA6BD /* CommandListExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53C62C298765C900BBA6BD /* CommandListExpression.swift */; };
+		CE53C62F2987719900BBA6BD /* CommandExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53C62E2987719900BBA6BD /* CommandExpression.swift */; };
+		CE53C631298771C400BBA6BD /* LoopCommandExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53C630298771C400BBA6BD /* LoopCommandExpression.swift */; };
+		CE53C633298771CE00BBA6BD /* ActionCommandExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53C632298771CE00BBA6BD /* ActionCommandExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +33,12 @@
 		CE53C604298754A000BBA6BD /* Interpreter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interpreter; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE53C607298754A000BBA6BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE53C62629875F1300BBA6BD /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		CE53C6282987637F00BBA6BD /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		CE53C62A298763B700BBA6BD /* BeginExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginExpression.swift; sourceTree = "<group>"; };
+		CE53C62C298765C900BBA6BD /* CommandListExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandListExpression.swift; sourceTree = "<group>"; };
+		CE53C62E2987719900BBA6BD /* CommandExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandExpression.swift; sourceTree = "<group>"; };
+		CE53C630298771C400BBA6BD /* LoopCommandExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopCommandExpression.swift; sourceTree = "<group>"; };
+		CE53C632298771CE00BBA6BD /* ActionCommandExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCommandExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,12 @@
 			children = (
 				CE53C607298754A000BBA6BD /* main.swift */,
 				CE53C62629875F1300BBA6BD /* Context.swift */,
+				CE53C6282987637F00BBA6BD /* Expression.swift */,
+				CE53C62A298763B700BBA6BD /* BeginExpression.swift */,
+				CE53C62C298765C900BBA6BD /* CommandListExpression.swift */,
+				CE53C62E2987719900BBA6BD /* CommandExpression.swift */,
+				CE53C630298771C400BBA6BD /* LoopCommandExpression.swift */,
+				CE53C632298771CE00BBA6BD /* ActionCommandExpression.swift */,
 			);
 			path = Interpreter;
 			sourceTree = "<group>";
@@ -124,7 +142,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE53C608298754A000BBA6BD /* main.swift in Sources */,
+				CE53C62F2987719900BBA6BD /* CommandExpression.swift in Sources */,
+				CE53C62B298763B700BBA6BD /* BeginExpression.swift in Sources */,
 				CE53C62729875F1300BBA6BD /* Context.swift in Sources */,
+				CE53C6292987637F00BBA6BD /* Expression.swift in Sources */,
+				CE53C633298771CE00BBA6BD /* ActionCommandExpression.swift in Sources */,
+				CE53C62D298765C900BBA6BD /* CommandListExpression.swift in Sources */,
+				CE53C631298771C400BBA6BD /* LoopCommandExpression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
