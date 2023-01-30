@@ -18,6 +18,8 @@ internal func main() {
         print(expression.description)
     }
 
+    expression.run()
+
 }
 
 main()
